@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     delta = (e.clientX - window.innerWidth / 2) * 0.5;
     //Controls the handle and window movement
     handle.style.left = e.clientX + delta + 'px';
-    // console.log(e.clientX);
+    console.log(e.clientX);
 
     //Controls the handle movement
     topLayer.style.width = e.clientX + skew + delta + 'px';
